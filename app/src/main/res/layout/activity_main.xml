@@ -34,7 +34,7 @@
                 android:layout_weight="20"
                 android:fontFamily="serif"
                 android:onClick="Clear"
-                android:textSize="26sp"
+                android:textSize="20sp"
                 android:text="Clear" />
 
             <Space
@@ -48,6 +48,7 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:fontFamily="serif"
+                android:textSize="26sp"
                 android:text="Number Not Found!" />
 
             <Space
@@ -62,6 +63,7 @@
                 android:layout_weight="20"
                 android:fontFamily="serif"
                 android:onClick="createRandomNumber"
+                android:textSize="20sp"
                 android:text="Click for Number" />
 
             <Space
