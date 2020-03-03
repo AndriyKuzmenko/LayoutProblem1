@@ -25,4 +25,9 @@ public class MainActivity extends AppCompatActivity
     {
         myTextView.setText("Number Not Found!");
     }
+
+    public void createRandomNumber(View view)
+    {
+        myTextView.setText(String.valueOf(myRandom.nextInt()));
+    }
 }
