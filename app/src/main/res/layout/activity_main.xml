@@ -33,6 +33,7 @@
                 android:layout_height="0px"
                 android:layout_weight="20"
                 android:fontFamily="serif"
+                android:onClick="Clear"
                 android:text="Clear" />
 
             <Space
