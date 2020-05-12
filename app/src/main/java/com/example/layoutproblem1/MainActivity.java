@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity
 
     public void createRandomNumber(View view)
     {
-        myTextView.setText(String.valueOf(myRandom.nextInt()));
+        myTextView.setText("Number="+String.valueOf(myRandom.nextInt()));
     }
 }
